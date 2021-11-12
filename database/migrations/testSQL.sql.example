@@ -1,0 +1,10 @@
+/*
+You have full access here to create migrations using native SQL which
+will get wrapped in the up(knex) like in the .js file
+*/
+
+/* Example rename table */
+alter table oldName to newName;
+
+/* Example rename column */
+alter table some_name rename column oldName to newName;
